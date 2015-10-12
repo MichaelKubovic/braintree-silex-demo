@@ -12,7 +12,7 @@ $app->register(new JDesrosiers\Silex\Provider\CorsServiceProvider(), array(
 ));
 $app->after($app["cors"]);
 
-require_once __DIR__ . 'config.php';
+require_once __DIR__ . '/config.php';
 
 $app->get('/client_token/{customerId}', function($customerId) use($app) { 
 

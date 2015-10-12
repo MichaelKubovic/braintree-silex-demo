@@ -1,0 +1,15 @@
+{
+    "name": "michael/payserver",
+    "description": "Caree payment service",
+    "authors": [
+        {
+            "name": "Michael Kubovic",
+            "email": "michael.kubovic@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "^1.3",
+        "braintree/braintree_php": "^3.5",
+        "jdesrosiers/silex-cors-provider": "^0.1.5"
+    }
+}

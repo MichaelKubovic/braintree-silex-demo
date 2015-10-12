@@ -1,0 +1,6 @@
+<?php
+
+Braintree_Configuration::environment('');
+Braintree_Configuration::merchantId('');
+Braintree_Configuration::publicKey('');
+Braintree_Configuration::privateKey('');
